@@ -1,0 +1,36 @@
+#profileImg {
+  width: 750px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  filter: sepia(0.12) brightness(1.1) contrast(1) saturate(0.7) opacity(0.8);
+  object-fit: cover;
+  box-shadow: 4px 4px 8px rgba(207, 203, 203, 0.2);
+}
+
+.welcome-mensage{
+  position: absolute;
+  top: 400px;
+  left: 360px;
+}
+
+h1{
+  color: rgba(22, 21, 21, 0.815);
+  font-size: 90px;
+  font-family: 'JetBrains Mono', monospace;
+}
+span{
+  color:rgb(187, 151, 105);
+  font-size: 40px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.fade-in-out {
+  transition: opacity 2s ease-in-out;
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}

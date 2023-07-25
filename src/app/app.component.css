@@ -1,0 +1,10 @@
+.main-container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Duas linhas, a primeira com tamanho automático para o header e a segunda com tamanho flexível (1fr) para o conteúdo abaixo */
+  min-height: 100vh; /* Ocupa pelo menos a altura total da janela do navegador */
+}
+
+app-home {
+  padding-left: 300px;
+  background-color: rgba(223,221,224,255);
+}
